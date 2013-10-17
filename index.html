@@ -4,37 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Propaganda Worx Demo App</title>
 <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
-<script>
-// start when the page is loaded
-window.onload = function() {
-
-  var urls = [
-    "http://www.mybaddesign.info/propaganda-worx-demo/index.html",
-    "http://www.mybaddesign.info/propaganda-worx-demo/index2.html"// no ,!!
-  ];
-
-  var index = 1;
-  var el = document.getElementById("rotator");
-
-  setTimeout(function rotate() {
-
-    if ( index === urls.length ) {
-      index = 0;
-    }
-
-    el.src = urls[index];
-    index  = index + 1;
-
-    // continue rotating iframes
-    setTimeout(rotate, 30000);
-
-  }, 30000); // 60000ms = 60s
-};
-</script>
 </head>
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<div id="container"><iframe id="rotator" src="http://www.mybaddesign.info/propaganda-worx-demo/index.html" width="1280" height="720" frameborder="0"></iframe>
+<div id="container"><iframe id="rotator" src="http://preview.risevision.com/Viewer.html?type=display&id=7WUGB5PBMWSG" width="1280" height="720" frameborder="0"></iframe>
 </div>
 </body>
 </html>
